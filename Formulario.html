@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Registro</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 30px;
+            padding: 30px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            width: 400px;
+        }
+        h1 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        label {
+            margin-top: 10px;
+            display: block;
+        }
+        input[type="text"], input[type="email"], input[type="password"], select {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        input[type="radio"] {
+            margin-right: 5px;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <h1>Formulario de Registro</h1> 
+    <form action="/procesar datos.php" method="post">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+
+        <label for="correo">Correo Electrónico:</label>
+        <input type="email" id="correo" name="correo" required>
+
+        <label for="contraseña">Contraseña:</label>
+        <input type="password" id="contraseña" name="contraseña" required>
+
+        <label for="confirmar-contraseña">Confirmación de Contraseña:</label>
+        <input type="password" id="confirmar-contraseña" name="confirmar-contraseña" required>
+
+        <label>Género:</label>
+        <input type="radio" id="masculino" name="genero" value="masculino" required>
+        <label for="masculino">Masculino</label>
+        <input type="radio" id="femenino" name="genero" value="femenino" required>
+        <label for="femenino">Femenino</label><br>
+
+        <label for="pais">País:</label>
+        <select id="pais" name="pais" required>
+            <option value="">Seleccione un país</option>
+            <option value="argentina">Argentina</option>
+            <option value="mexico">México</option>
+            <option value="espana">España</option>
+            <option value="chile">Chile</option>
+            <option value="colombia">Colombia</option>
+            <option value="peru">Perú</option>
+            <option value="uruguay">Uruguay</option>
+        </select>
+
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>

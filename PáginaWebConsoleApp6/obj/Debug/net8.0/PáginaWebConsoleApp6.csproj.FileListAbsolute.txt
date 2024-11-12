@@ -1,0 +1,14 @@
+C:\Users\zende\Desktop\PROGRAMACIÓN 2024\PáginaWebConsoleApp6\bin\Debug\net8.0\PáginaWebConsoleApp6.exe
+C:\Users\zende\Desktop\PROGRAMACIÓN 2024\PáginaWebConsoleApp6\bin\Debug\net8.0\PáginaWebConsoleApp6.deps.json
+C:\Users\zende\Desktop\PROGRAMACIÓN 2024\PáginaWebConsoleApp6\bin\Debug\net8.0\PáginaWebConsoleApp6.runtimeconfig.json
+C:\Users\zende\Desktop\PROGRAMACIÓN 2024\PáginaWebConsoleApp6\bin\Debug\net8.0\PáginaWebConsoleApp6.dll
+C:\Users\zende\Desktop\PROGRAMACIÓN 2024\PáginaWebConsoleApp6\bin\Debug\net8.0\PáginaWebConsoleApp6.pdb
+C:\Users\zende\Desktop\PROGRAMACIÓN 2024\PáginaWebConsoleApp6\obj\Debug\net8.0\PáginaWebConsoleApp6.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zende\Desktop\PROGRAMACIÓN 2024\PáginaWebConsoleApp6\obj\Debug\net8.0\PáginaWebConsoleApp6.AssemblyInfoInputs.cache
+C:\Users\zende\Desktop\PROGRAMACIÓN 2024\PáginaWebConsoleApp6\obj\Debug\net8.0\PáginaWebConsoleApp6.AssemblyInfo.cs
+C:\Users\zende\Desktop\PROGRAMACIÓN 2024\PáginaWebConsoleApp6\obj\Debug\net8.0\PáginaWebConsoleApp6.csproj.CoreCompileInputs.cache
+C:\Users\zende\Desktop\PROGRAMACIÓN 2024\PáginaWebConsoleApp6\obj\Debug\net8.0\PáginaWebConsoleApp6.dll
+C:\Users\zende\Desktop\PROGRAMACIÓN 2024\PáginaWebConsoleApp6\obj\Debug\net8.0\refint\PáginaWebConsoleApp6.dll
+C:\Users\zende\Desktop\PROGRAMACIÓN 2024\PáginaWebConsoleApp6\obj\Debug\net8.0\PáginaWebConsoleApp6.pdb
+C:\Users\zende\Desktop\PROGRAMACIÓN 2024\PáginaWebConsoleApp6\obj\Debug\net8.0\PáginaWebConsoleApp6.genruntimeconfig.cache
+C:\Users\zende\Desktop\PROGRAMACIÓN 2024\PáginaWebConsoleApp6\obj\Debug\net8.0\ref\PáginaWebConsoleApp6.dll

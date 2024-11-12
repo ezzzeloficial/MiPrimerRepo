@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encuesta Rápida</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 30px;
+            padding: 30px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            width: 400px;
+        }
+        h1 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        label {
+            margin-top: 10px;
+            display: block;
+        }
+        input[type="text"], input[type="number"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        input[type="radio"], input[type="checkbox"] {
+            margin-right: 5px;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <h1>Encuesta Rápida</h1>
+    <form action="/procesar_datos.php" method="post">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+
+        <label for="edad">Edad:</label>
+        <input type="number" id="edad" name="edad" min="1" required>
+
+        <label>¿Te gustan los deportes?</label>
+        <input type="radio" id="si" name="deportes" value="si" required>
+        <label for="si">Sí</label>
+        <input type="radio" id="no" name="deportes" value="no" required>
+        <label for="no">No</label>
+
+        <label>Selecciona tus hobbies favoritos:</label>
+        <input type="checkbox" id="leer" name="hobbies" value="leer">
+        <label for="leer">Leer</label>
+        <input type="checkbox" id="deporte" name="hobbies" value="deporte">
+        <label for="deporte">Deporte</label>
+        <input type="checkbox" id="musica" name="hobbies" value="musica">
+        <label for="musica">Música</label>
+        <input type="checkbox" id="viajar" name="hobbies" value="viajar">
+        <label for="viajar">Viajar</label>
+
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>

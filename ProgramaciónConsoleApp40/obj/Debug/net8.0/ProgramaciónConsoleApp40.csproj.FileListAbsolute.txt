@@ -1,0 +1,14 @@
+C:\Users\zende\Desktop\PROGRAMACIÓN 2024\ProgramaciónConsoleApp40\bin\Debug\net8.0\ProgramaciónConsoleApp40.exe
+C:\Users\zende\Desktop\PROGRAMACIÓN 2024\ProgramaciónConsoleApp40\bin\Debug\net8.0\ProgramaciónConsoleApp40.deps.json
+C:\Users\zende\Desktop\PROGRAMACIÓN 2024\ProgramaciónConsoleApp40\bin\Debug\net8.0\ProgramaciónConsoleApp40.runtimeconfig.json
+C:\Users\zende\Desktop\PROGRAMACIÓN 2024\ProgramaciónConsoleApp40\bin\Debug\net8.0\ProgramaciónConsoleApp40.dll
+C:\Users\zende\Desktop\PROGRAMACIÓN 2024\ProgramaciónConsoleApp40\bin\Debug\net8.0\ProgramaciónConsoleApp40.pdb
+C:\Users\zende\Desktop\PROGRAMACIÓN 2024\ProgramaciónConsoleApp40\obj\Debug\net8.0\ProgramaciónConsoleApp40.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zende\Desktop\PROGRAMACIÓN 2024\ProgramaciónConsoleApp40\obj\Debug\net8.0\ProgramaciónConsoleApp40.AssemblyInfoInputs.cache
+C:\Users\zende\Desktop\PROGRAMACIÓN 2024\ProgramaciónConsoleApp40\obj\Debug\net8.0\ProgramaciónConsoleApp40.AssemblyInfo.cs
+C:\Users\zende\Desktop\PROGRAMACIÓN 2024\ProgramaciónConsoleApp40\obj\Debug\net8.0\ProgramaciónConsoleApp40.csproj.CoreCompileInputs.cache
+C:\Users\zende\Desktop\PROGRAMACIÓN 2024\ProgramaciónConsoleApp40\obj\Debug\net8.0\ProgramaciónConsoleApp40.dll
+C:\Users\zende\Desktop\PROGRAMACIÓN 2024\ProgramaciónConsoleApp40\obj\Debug\net8.0\refint\ProgramaciónConsoleApp40.dll
+C:\Users\zende\Desktop\PROGRAMACIÓN 2024\ProgramaciónConsoleApp40\obj\Debug\net8.0\ProgramaciónConsoleApp40.pdb
+C:\Users\zende\Desktop\PROGRAMACIÓN 2024\ProgramaciónConsoleApp40\obj\Debug\net8.0\ProgramaciónConsoleApp40.genruntimeconfig.cache
+C:\Users\zende\Desktop\PROGRAMACIÓN 2024\ProgramaciónConsoleApp40\obj\Debug\net8.0\ref\ProgramaciónConsoleApp40.dll

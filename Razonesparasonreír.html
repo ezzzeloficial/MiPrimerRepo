@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Razones para sonreír</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-image: url('file:///C:/Users/zende/Pictures/A%20l%20e%20x%20i%20a%20(@aalex.d.s)%20%E2%80%A2%20Fotos%20y%20v%C3%ADdeos%20de%20Instagram_files/458454118_1671348903652375_2650804118097456968_n.jpg');
+            background-size: cover;
+            background-position: center;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            position: relative; /* Necesario para la posición absoluta de las instrucciones */
+            height: 100vh; /* Asegura que el body tenga suficiente altura */
+        }
+        h1 {
+            text-align: left;
+            color: #000000;
+            margin: 20px;
+            background-color: rgba(255, 255, 255, 0.7);
+            padding: 20px;
+            border-radius: 10px;
+            max-width: 400px; /* Ajustar el ancho del título */
+            box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1); /* Sombra para darle más relieve */
+        }
+        .container {
+            max-width: 400px; /* Ancho del contenedor reducido para dejar más espacio en la imagen de fondo */
+            margin: 20px; /* Alineado a la izquierda */
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.6); /* Fondo con más transparencia */
+            border-radius: 10px;
+            text-align: left;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra para darle más relieve */
+        }
+        .instructions {
+            font-size: 12px; /* Tamaño de fuente más pequeño */
+            position: absolute; /* Posición absoluta */
+            bottom: 20px; /* Espacio desde la parte inferior */
+            right: 20px; /* Espacio desde la derecha */
+            background-color: rgba(255, 255, 255, 0.6); 
+            border-radius: 10px;
+            padding: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .reasons {
+            background-color: #f4f4f4;
+            border-radius: 8px;
+            border: 1px solid #d3d3d3;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+            margin-bottom: 15px;
+        }
+        .footer {
+            text-align: left;
+            font-size: 10px;
+            color: #333333;
+            margin-top: 20px;
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 10px;
+            border-radius: 8px;
+        }
+        .reason-content {
+            display: none;
+            margin-top: 10px;
+        }
+        button {
+            background-color: #ff6f61;
+            color: white;
+            border: none;
+            padding: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            width: 100%;
+            text-align: left;
+            position: relative; /* Para el efecto de chispa */
+            overflow: hidden; /* Para ocultar la chispa fuera del botón */
+        }
+        button:hover {
+            background-color: #e55a50;
+        }
+        /* Estilo para la chispa de brillo */
+        .spark {
+            position: absolute;
+            border-radius: 50%;
+            background: rgba(255, 223, 0, 0.8); /* Color dorado */
+            box-shadow: 0 0 20px rgba(255, 223, 0, 1); /* Sombra brillante */
+            animation: sparkle 0.6s forwards; /* Duración de la animación */
+        }
+        @keyframes sparkle {
+            0% {
+                transform: scale(0);
+                opacity: 1;
+            }
+            50% {
+                transform: scale(1.5); /* Aumentar el tamaño en el medio de la animación */
+            }
+            100% {
+                transform: scale(2);
+                opacity: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Razones para que sonrías</h1>
+
+    <div class="container">
+        <div class="reasons">
+            <button onclick="toggleReason('reason1', this)">✨ Eres más fuerte de lo que piensas</button>
+            <div id="reason1" class="reason-content">
+                <p>Los momentos difíciles no duran para siempre, pero las personas fuertes como tú sí.</p>
+            </div>
+
+            <button onclick="toggleReason('reason2', this)">🌸 Incluso las flores necesitan tormentas para crecer</button>
+            <div id="reason2" class="reason-content">
+                <p>Los malos días solo te preparan para florecer con más fuerza.</p>
+            </div>
+
+            <button onclick="toggleReason('reason3', this)">🌈 Después de la lluvia, siempre aparece el arcoíris</button>
+            <div id="reason3" class="reason-content">
+                <p>Por muy oscuro que sea el cielo ahora, siempre habrá luz al final.</p>
+            </div>
+
+            <button onclick="toggleReason('reason4', this)">💖 Eres importante para muchas personas</button>
+            <div id="reason4" class="reason-content">
+                <p>Aunque a veces te sientas sola, hay quienes te aprecian más de lo que imaginas.</p>
+            </div>
+
+            <button onclick="toggleReason('reason5', this)">🎨 El mundo necesita tu luz y tus colores</button>
+            <div id="reason5" class="reason-content">
+                <p>Tu presencia hace que el mundo sea un lugar más hermoso, no lo dudes nunca.</p>
+            </div>
+
+            <button onclick="toggleReason('reason6', this)">⭐ Estás hecha de estrellas</button>
+            <div id="reason6" class="reason-content">
+                <p>Cada vez que dudes de ti misma, recuerda que tienes una chispa única que nadie más posee.</p>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>Recuerda: cada sonrisa que das ilumina el mundo un poco más 🌟</p>
+        </div>
+    </div>
+
+    <div class="instructions">
+        Haz clic en cada frase de la caja para descubrir más razones para sonreír.
+    </div>
+
+    <script>
+        function toggleReason(reasonId, button) {
+            var reason = document.getElementById(reasonId);
+            if (reason.style.display === "none" || reason.style.display === "") {
+                reason.style.display = "block";
+            } else {
+                reason.style.display = "none";
+            }
+            createSparkle(button);
+        }
+
+        function createSparkle(button) {
+            var sparkle = document.createElement('div');
+            sparkle.className = 'spark';
+            button.appendChild(sparkle);
+            
+            // Coloca la chispa en el centro del botón
+            var rect = button.getBoundingClientRect();
+            sparkle.style.left = (rect.width / 2) - 10 + 'px'; // Ajustar para centrar
+            sparkle.style.top = (rect.height / 2) - 10 + 'px'; // Ajustar para centrar
+            sparkle.style.width = '20px'; // Aumentar el tamaño
+            sparkle.style.height = '20px'; // Aumentar el tamaño
+            
+            // Remueve la chispa después de la animación
+            sparkle.addEventListener('animationend', function() {
+                sparkle.remove();
+            });
+        }
+    </script>
+
+</body>
+</html>

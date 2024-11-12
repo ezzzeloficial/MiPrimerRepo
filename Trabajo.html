@@ -1,0 +1,248 @@
+<!DOCTYPE html> 
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ViajaYa.es</title>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    
+    <style>
+        /* Centra la tabla y añade algo de estilo */
+        body {
+            font-family: 'Poppins', Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 0;
+            padding: 20px;
+            padding-bottom: 60px; /* Añade espacio suficiente para el footer */
+        }
+
+        /* Estilo para el encabezado y la navegación */
+        header {
+            width: 100%;
+            text-align: center;
+            padding: 20px;
+            background-color: #e6e5e5;
+            border-bottom: 0px solid #ddd;
+        }
+
+        /* Tamaño y estilo para el logo */
+        .logo {
+            width: 150px;
+            height: auto;
+            margin-bottom: -30px;
+        }
+
+        nav {
+            margin-top: 10px;
+        }
+
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        nav a:hover {
+            color: #007BFF;
+        }
+
+        /* Ocultar secciones por defecto */
+        .section {
+            display: none;
+        }
+    
+        /* Contenedor para alinear a la izquierda */
+        .content-container {
+            width: 80%;
+            text-align: left;
+            margin-left: 10%; /* Ajusta el margen según el nivel de alineación que quieras */
+        }
+
+        /* Tabla de destinos */
+        table {
+            width: 100%; /* Cambiado a 100% para ajustarse al ancho del contenedor */
+            margin: 20px auto;
+            border-collapse: collapse;
+            text-align: center;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+        }
+
+        th {
+            background-color: rgb(235, 103, 103);
+            font-weight: 700; /* Uso de fuente en negrita para los encabezados */
+        }
+
+        /* Estilos del formulario */
+        form {
+            width: 100%; /* Cambiado a 100% para ajustarse al ancho del contenedor */
+            margin: 20px auto;
+        }
+
+        label {
+            display: block;
+            margin: 10px 0 5px;
+            font-weight: 700; /* Negrita para etiquetas */
+        }
+
+        input, select {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            font-family: 'Poppins', Arial, sans-serif; 
+            box-sizing: border-box; /* Asegura que el padding no aumente el ancho para que la caja de "pais" sea del mismo tamaño */
+        }
+
+        footer {
+        width: 100%;
+        text-align: center;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        padding: 0px 0;
+        background-color: #e6e5e5;
+        font-weight: 500; /* Negrita para el footer */
+        box-shadow: 0 -1px 2px rgba(0, 0, 0, 0.1); /* Sombrado para destacar */
+        }
+
+        /* H2 y P de bienvenida */
+        h2 {
+            font-weight: 700; /* Uso de fuente en negrita para encabezados */
+        }
+
+        p {
+            font-weight: 400; /* Uso de fuente regular para párrafos */
+        }
+    </style>
+    <script>
+        // Función para mostrar la sección seleccionada
+        function mostrarSeccion(id) {
+            // Oculta todas las secciones
+            document.querySelectorAll('.section').forEach(section => section.style.display = 'none');
+            // Muestra solo la sección seleccionada
+            document.getElementById(id).style.display = 'block';
+        }
+
+        // Muestra "Inicio" al cargar la página
+        window.onload = function() {
+            mostrarSeccion('Inicio');
+        };
+    </script>
+</head>
+
+<body>
+    <header>
+        <!-- Logo de la agencia de viajes -->
+        <img src="file:///C:/Users/zende/Documents/GRADO%20DESARROLLO%20DE%20APLICACIONES/VIAJAYA-removebg-preview.png" alt="Logo de ViajaYa" class="logo">
+        
+        <!-- Nombre de la agencia de viajes -->
+        <p><strong>Somos fieles creyentes de que viajar es vivir con recuerdos que te acompañarán por el resto de tu vida</strong></p>
+        
+        <!-- Menú de navegación entre diferentes apartados -->
+        <nav>
+            <a onclick="mostrarSeccion('Inicio')">Inicio</a>
+            <a onclick="mostrarSeccion('Destinos')">Destinos</a>
+            <a onclick="mostrarSeccion('Reserva')">Reserva</a>
+            <a onclick="mostrarSeccion('Contacto')">Contacto</a>
+        </nav>
+    </header>
+
+        <!-- Sección de Inicio -->
+        <section id="Inicio" class="section">
+            <h2>¡Bienvenido a ViajaYa!</h2>
+            <p>Explora nuestros destinos y reserva tu próximo viaje con facilidad.</p>
+        </section>
+
+<!-- Contenedor para alinear contenido a la izquierda -->
+<div class="content-container">
+        <!-- Sección de Destinos -->
+        <section id="Destinos" class="section">
+            <h2>Destinos</h2>
+            <p><em>Descubre destinos magníficos a precios increíbles</em></p>
+            <table>
+                <tr>
+                    <th>Destino</th>
+                    <th>Fecha de ida</th>
+                    <th>Fecha de regreso</th>
+                    <th>Precio</th>
+                </tr>
+                <tr>
+                    <td>Bélgica</td>
+                    <td>11/11/2024</td>
+                    <td>16/11/2024</td>
+                    <td>650€</td>
+                </tr>
+                <tr>
+                    <td>Finlandia</td>
+                    <td>16/11/2024</td>
+                    <td>24/11/2024</td>
+                    <td>730€</td>
+                </tr>
+                <tr>
+                    <td>Portugal</td>
+                    <td>18/11/2024</td>
+                    <td>23/11/2024</td>
+                    <td>530€</td>
+                </tr>
+                <tr>
+                    <td>Suiza</td>
+                    <td>20/11/2024</td>
+                    <td>27/11/2024</td>
+                    <td>850€</td>
+                </tr>
+            </table>
+        </section>
+
+        <!-- Sección de Reserva -->
+        <section id="Reserva" class="section">
+            <h2>Formulario de Reserva</h2>
+            <form action="/procesar_datos.php" method="post">  
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="correo">Correo electrónico:</label>
+                <input type="email" id="correo" name="correo" required>
+
+                <label for="contraseña">Contraseña:</label>
+                <input type="password" id="contraseña" name="contraseña" required>
+                
+                <label for="confirmar-contraseña">Confirmación de contraseña:</label>
+                <input type="password" id="confirmar-contraseña" name="confirmar-contraseña" required>
+
+                <label for="pais">País:</label>
+                <select id="pais" name="pais" required>
+                    <option value="España">España</option>
+                    <option value="Portugal">Portugal</option>
+                    <option value="Finlandia">Finlandia</option>
+                    <option value="Croacia">Croacia</option>
+                    <option value="Bélgica">Bélgica</option>
+                    <option value="Suiza">Suiza</option>
+                </select>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+
+        <!-- Sección de Contacto -->
+        <section id="Contacto" class="section">
+            <h2>Contacto</h2>
+            <p><strong>Estamos a tu disposición. Para cualquier duda o información dirígete a nuestro correo electrónico</strong></p>
+            <a href="mailto:viajaya@gmail.com">viajaya@gmail.com</a>
+        </section>
+    </div>
+    
+        <footer>
+            <p>Derechos reservados © - <mark>Agencia de Viajes</mark></p> 
+        </footer>
+</body>
+</html>

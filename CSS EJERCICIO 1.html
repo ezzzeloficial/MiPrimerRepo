@@ -1,0 +1,54 @@
+<!DOCTYPE html> <!--SON LAS REGLAS QUE TENDRÁ MI WEB-->
+<html lang="en">
+
+<head> <!--META SON INSTRUCCIONES QUE NO APARECEN ESCRITAS EN LA WEB, TITLE ES IMPORTANTE ESCRIBIRLO-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bienvenidos a CSS</title> <!--Título de la carta-->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <style>
+        /* Cambia el color del texto del título a azul */
+h1 {
+    color: blue;
+}
+/* Cambia el color de fondo del párrafo a gris claro y el color del texto a verde oscuro */
+p {
+    background-color: lightgray;
+    color: darkgreen;
+}  
+      /* El primer párrafo usando el nombre del color */             
+.rojo {
+    color:red;
+}
+      /* El segundo párrafo usando el valor hexadecimal */ 
+.amarillo {
+    color: #FFFF00;
+}
+     /* El tercer párrafo usando el valor RGB */ 
+.verde {
+    color: rgb(0, 128, 0);
+}
+    /* El cuarto párrafo usando el valor RGBA y una transparencia del 50% */ 
+.azul-transparente {
+    color: rgba(173,216,230, 0.5);
+}
+    /* El título del segundo ejercicio */
+.azul-oscuro {
+    color: blue;
+}
+    </style>
+
+    <header>
+        <h1>"Bienvenidos a CSS"</h1>
+        <p><em>Ejercicio 1: Colores</em></p>
+   </header>
+   <p class= "azul-oscuro"><em>Ejercicio 2: Colores en Diferentes Formatos</em></p>
+
+   <p class = "rojo">Este es el primer párrafo en rojo usando el nombre del color</p>
+   <p class = "amarillo">Este es el segundo párrafo en amarillo usando un valor hexadecimal</p>
+   <p class = "verde">Este es el tercer párrafo en verde usando RGB</p>
+   <p class = "azul-transparente">Este es el cuarto párrafo en azul usando valor RGBA con transparencia al 50%</p>
+</body>
+</html>
